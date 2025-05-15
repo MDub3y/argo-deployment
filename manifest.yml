@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: nginx
+    image: awesxme01/node-app@sha256:2d3d8c6f02b6cba01abe5dcf64b8f6beb8060f5d6c3ff5284823a8b700f834ec
+    ports:
+    - containerPort: 80
